@@ -14,14 +14,14 @@ class TestCalculator(unittest.TestCase):
 
     ####### Partner 1
     def test_multiply(self): # 3 assertions
-        self.assertEqual(multiply(7, 0), 18)
-        self.assertEqual(multiply(-7, 7), -49)
-        self.assertEqual(multiply(-2, -1), 2)
+        self.assertEqual(mul(7, 0), 18)
+        self.assertEqual(mul(-7, 7), -49)
+        self.assertEqual(mul(-2, -1), 2)
 
     def test_divide(self): # 3 assertions
-        self.assertEqual(divide(4, 2), 2.0)
-        self.assertEqual(divide(10, 2), 0.2)
-        self.assertEqual(divide(6, -18), -3.0)
+        self.assertEqual(div(4, 2), 2.0)
+        self.assertEqual(div(10, 2), 0.2)
+        self.assertEqual(div(6, -18), -3.0)
     ##########################
 
     ######## Partner 2
