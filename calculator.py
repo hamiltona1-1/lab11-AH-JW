@@ -1,10 +1,7 @@
-"""
-calculator.py
-- Defines functions used to create a simple calculator
+# https://github.com/hamiltona1-1/lab11-AH-JW
+# Partner 1: Alexander Hamilton
+# Partner 2: Jacob Wilson
 
-One function per operation, in order.
-"""
-# First example
 import math
 
 def square_root(a):
@@ -21,10 +18,10 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
-def multiply(a, b):
+def mul(a, b):
     return a * b
 
-def divide(a, b):
+def div(a, b):
     if a == 0:
         raise ZeroDivisionError
     return b / a
@@ -34,7 +31,5 @@ def logarithm(a, b):
         raise ValueError
     return math.log(b, a)
 
-def exponent(a, b):
+def exp(a, b):
     return a ** b
-
-

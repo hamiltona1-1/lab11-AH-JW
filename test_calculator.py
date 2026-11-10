@@ -1,3 +1,7 @@
+# https://github.com/hamiltona1-1/lab11-AH-JW
+# Partner 1: Alexander Hamilton
+# Partner 2: Jacob Wilson
+
 import unittest
 from calculator import *
 
